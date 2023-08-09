@@ -1,7 +1,7 @@
 {
     "name": "petarpetkovic996/laravel-jsend-response",
     "description": "JSend Response Macro's for Laravel",
-    "keywords": ["petarpetkovic996", "laravel", "jsend", "response", "macros", "php"],
+    "keywords": ["5ar5kovic", "laravel", "jsend", "response", "macros", "php"],
     "license": "MIT",
     "authors": [
         {
@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "petarpetkovic996\\LaravelJsendResponse\\ResponseMacrosServiceProvider"
+                "5ar5kovic\\LaravelJsendResponse\\ResponseMacrosServiceProvider"
             ]
         }
     }
