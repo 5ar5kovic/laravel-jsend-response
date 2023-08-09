@@ -10,7 +10,13 @@
             "role": "Developer"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=5.6",
+        "laravel/framework": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
     "autoload": {
         "psr-4": {
             "petarpetkovic996\\LaravelJsendResponse\\": "src/"
