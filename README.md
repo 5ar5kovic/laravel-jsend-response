@@ -62,10 +62,6 @@ With the HTTP `Status Code: 422`
 
 ### Error
 ``` php
-$data = [
-    'first_name' => 'A first_name is required'
-    'last_name' => 'A last_name is required'
-];
 return response()->error('Unable to communicate with database', 500);
 ```
 
