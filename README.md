@@ -1,10 +1,14 @@
 # Laravel JSend Response
 
+[![Laravel Package](https://img.shields.io/badge/laravel-package-red)](https://packagist.org/packages/petarpetkovic996/laravel-jsend-response)
+[![Latest Version on Packagist](https://img.shields.io/badge/packagist-v1.0.0-blue?link=https://packagist.org/packages/petarpetkovic996/laravel-jsend-response)](https://packagist.org/packages/petarpetkovic996/laravel-jsend-response)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](#)
+
 This package defines JSend macros for the response in Laravel.
 
 ## Installation
 
-You can install the package via composer:
+You can install the package via Composer:
 
 ``` bash
 composer require petarpetkovic996/laravel-jsend-response
@@ -32,7 +36,7 @@ Result
     }
 }
 ```
-With the Http `Status Code: 201`
+With the HTTP `Status Code: 201`
 
 ### Fail
 ``` php
@@ -54,7 +58,7 @@ Result
     }
 }
 ```
-With the Http `Status Code: 422`
+With the HTTP `Status Code: 422`
 
 ### Error
 ``` php
@@ -73,4 +77,4 @@ Result
     "message": "Unable to communicate with database"
 }
 ```
-With the Http `Status Code: 500`
+With the HTTP `Status Code: 500`
