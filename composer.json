@@ -26,7 +26,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "5ar5kovic\\LaravelJsendResponse\\ResponseMacrosServiceProvider"
+                "petarpetkovic996\\LaravelJsendResponse\\ResponseMacrosServiceProvider"
             ]
         }
     }
